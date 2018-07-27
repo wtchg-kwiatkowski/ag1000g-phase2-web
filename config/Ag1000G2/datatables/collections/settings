@@ -1,0 +1,12 @@
+nameSingle: collection
+namePlural: collections
+primKey: collection_id
+properties:
+- id: collection_id
+  dataType: Text
+- id: contributor
+  dataType: Text
+- id: country
+  dataType: Text
+- id: year
+  dataType: Int16

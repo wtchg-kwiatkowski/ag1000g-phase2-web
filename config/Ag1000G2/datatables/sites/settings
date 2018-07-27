@@ -1,0 +1,20 @@
+nameSingle: site
+namePlural: sites
+primKey: site_id
+properties:
+- id: site_id
+  dataType: Text
+- id: country
+  dataType: Text
+- id: label
+  dataType: Text
+- id: lat
+  dataType: GeoLatitude
+- id: lng
+  dataType: GeoLongitude
+- id: collection_id
+  dataType: Text
+  relation:
+    tableId: collections
+    forwardName: is within
+    reverseName: includes

@@ -1,0 +1,26 @@
+nameSingle: sample
+namePlural: samples
+primKey: sample_id
+properties:
+- id: sample_id
+  dataType: Text  
+- id: collection_id
+  dataType: Text
+  relation:
+    tableId: collections
+    forwardName: was collected by 
+    reverseName: collected
+- id: site_id
+  dataType: Text
+- id: population_id
+  dataType: Text
+  relation:
+    tableId: populations
+    forwardName: is from
+    reverseName: includes
+- id: sex
+  dataType: Text
+- id: molecular_form
+  dataType: Text
+- id: mean_coverage
+  dataType: Float

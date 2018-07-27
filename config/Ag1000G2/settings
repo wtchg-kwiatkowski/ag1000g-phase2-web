@@ -1,0 +1,9 @@
+name: 'Ag1000G phase 2'
+nameBanner: 'Ag1000G phase 2'
+version: 'phase 2'
+
+dataTables:
+- collections
+- populations
+- samples
+- sites

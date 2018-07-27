@@ -1,0 +1,14 @@
+nameSingle: population
+namePlural: populations
+primKey: population_id
+properties:
+- id: population_id
+  dataType: Text
+- id: label
+  dataType: Text
+- id: lat
+  dataType: GeoLatitude
+- id: lng
+  dataType: GeoLongitude
+- id: colour
+  dataType: Text
